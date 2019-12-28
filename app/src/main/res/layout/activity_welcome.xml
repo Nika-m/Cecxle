@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity"
+    android:orientation="vertical"
+    android:background="@color/myOrange">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CEC"
+        android:fontFamily="@font/comic_relief_bold"
+        android:textSize="150px"
+        android:textColor="@color/textOrange"
+        android:layout_gravity="bottom"
+        android:padding="0px"
+        >
+    </TextView>
+
+    <ImageView
+        android:layout_width="300px"
+        android:layout_height="400px"
+        android:src="@drawable/campfire"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="L E"
+        android:fontFamily="@font/comic_relief_bold"
+        android:textSize="150px"
+        android:textColor="@color/textOrange"
+        android:layout_gravity="bottom"
+        >
+    </TextView>
+
+</LinearLayout>
+
+
+</FrameLayout>
